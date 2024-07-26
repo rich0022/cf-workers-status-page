@@ -62,3 +62,9 @@ monitors:
     url: 'https://smoantmall.com'
     method: GET
     expectStatus: 200
+
+  - id: cloupor_com
+    name: cloupor.com
+    url: 'https://cloupor.com'
+    method: GET
+    expectStatus: 200
