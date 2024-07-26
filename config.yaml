@@ -38,3 +38,27 @@ monitors:
     url: 'https://antbar.com'
     method: GET
     expectStatus: 200
+
+  - id: antbar_id
+    name: antbar.id
+    url: 'https://antbar.id'
+    method: GET
+    expectStatus: 200
+
+  - id: antbar_vn
+    name: antbar.vn
+    url: 'https://antbar.vn'
+    method: GET
+    expectStatus: 200
+
+  - id: udnbar_com
+    name: udnbar.com
+    url: 'https://udnbar.com'
+    method: GET
+    expectStatus: 200
+
+  - id: smoantmall_com
+    name: smoantmall.com
+    url: 'https://smoantmall.com'
+    method: GET
+    expectStatus: 200
