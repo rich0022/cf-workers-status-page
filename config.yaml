@@ -18,14 +18,14 @@ monitors:
   - id: smoant # unique identifier
     name: smoant.com
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://smoant.com/' # URL to fetch
+    url: 'https://smoant.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
-    name: www.clouportech.com
+    name: clouportech
     description: 'Built for anything connected to the Internet.'
     url: 'https://www.clouportech.com'
     method: GET
@@ -33,7 +33,8 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: antbarcom
-    name: The Cloudflare Blog
-    url: 'https://antbar.com/'
+    name: Antbar
+    description: 'antbar website.'
+    url: 'https://antbar.com'
     method: GET
     expectStatus: 200
